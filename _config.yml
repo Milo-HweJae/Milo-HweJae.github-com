@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
   Milo-Hwejae's Blog, <br />
   About data driven security
 
-paginate: 1
+paginate: 5
 paginate_path: "/blog/page:num/"
 
 tag_permalink_style: pretty
@@ -16,12 +16,14 @@ tag_page_dir: tag
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 dash:
   date_format: "%b %-d, %Y"
-
+  
+  disqus:
+    shorname: <milo-hwejae-git>
 
   # generate social links in footer
   # supported colors: green, red, orange, blue, cyan, pink, teal, yellow, indigo, purple
   social_links:
-    #- url: #https://twitter.com/bitbrain_
+    #- url: https://twitter.com/bitbrain_
     #  icon: twitter-square
     #  color: cyan
     #- url: https://bitbrain.itch.io
